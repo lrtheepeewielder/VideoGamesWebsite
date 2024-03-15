@@ -1,0 +1,80 @@
+
+body {background-color: rgb(0, 0, 0);}
+h1   {color: rgb(255, 255, 255);}
+h2   {color: rgb(255, 255, 255);}
+h3   {color: rgb(255, 255, 255);}
+p    {color: rgb(255, 255, 255);}
+h4   {color:rgb(179, 82, 141);}
+
+
+
+form {
+    background-color: #d05fca;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .row::after a:hover {
+    color: #ffffff;
+  }
+
+  header {
+    position: sticky;
+    top: -54px;
+    z-index: 2;
+  }
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+  }
+  .search-bar input {
+    width: 50%;
+    min-width: 300px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+  }
+  .search-bar [list]::-webkit-list-button,
+  .search-bar [list]::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #ffd3d3;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  ::placeholder {
+    color: #000000;
+    opacity: 0.7; 
+  }
+#box-one {
+    background-color: rgb(176, 24, 179);
+    }
+    #box-two {
+    background-color: rgb(177, 28, 148);
+    padding: 10px;
+    }
+    
+    .column {
+      float: left;
+      width: 30%;
+      padding: 10px;
+    }
+    
+   
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
