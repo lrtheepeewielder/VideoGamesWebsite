@@ -13,7 +13,7 @@ button {
     transition-duration: 0.4 s;
   }
   
-  button: hover {
+  button hover {
     background-color: #7e8481;
     color: pink;
   }
