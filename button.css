@@ -1,12 +1,12 @@
 button {
     background-color: #ad0fb0; 
-    border-radius: 2px;
+    border-radius: 2 px;
     color: white;
-    padding: 10px 20px;
+    padding: 10 px 20 px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 10 px;
   }
 
   button {
