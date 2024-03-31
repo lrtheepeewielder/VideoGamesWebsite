@@ -1,5 +1,4 @@
 #searchForm{
-    /* The search form. */
     background-color:#4C5A65;
     padding:50px 50px 30px;
     margin:80px 0;
@@ -15,7 +14,6 @@ fieldset{
 }
 
 #s{
-    /* The search text box. */
 
     border:none;
     color:#888888;
@@ -49,7 +47,6 @@ fieldset{
     margin-right:5px;
 }
 
-/* Styling each icon */
 
 li.web{ width:15px;}
 li.web.active,
@@ -68,7 +65,6 @@ li.videos.active,
 li.videos:hover{ background-position:right bottom;}
 
 span.arrow{
-    /* The little arrow that moves below the icons */
 
     width:11px;
     height:6px;
@@ -78,7 +74,6 @@ span.arrow{
     left:0;
 }
 
-/* The submit button */
 
 #submitButton{
     background:url('img/buttons.png') no-repeat;
@@ -102,7 +97,6 @@ span.arrow{
     font-weight:normal;
     padding:8px 20px;
 
-    /* Applying CSS3 rounded corners */
     -moz-border-radius:18px;
     -webkit-border-radius:18px;
     border-radius:18px;
@@ -113,7 +107,6 @@ span.arrow{
 .webResult p b{ color:white;}
 .webResult > a{ margin-left:20px;}
 
-/* Image & video search results */
 
 .imageResult{
     float:left;
@@ -130,7 +123,6 @@ span.arrow{
     margin:0 auto 15px;
 }
 
-/* The show more button */
 
 #more{
     width:83px;
